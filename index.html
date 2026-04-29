@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOPS CP - Office Tycoon</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #0a0f0a;
+           
+            background-image: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0,255,80,0.015) 2px,
+                rgba(0,255,80,0.015) 4px
+            );
+        }
+        canvas {
+            border: 2px solid #1a3a1a;
+            box-shadow:
+                0 0 0 1px #0a0f0a,
+                0 0 30px rgba(0, 204, 80, 0.25),
+                0 0 80px rgba(0, 100, 40, 0.15);
+            image-rendering: pixelated;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+</head>
+<body>
+    <script src="game.js"></script>
+</body>
+</html>
